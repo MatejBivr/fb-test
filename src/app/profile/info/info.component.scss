@@ -1,0 +1,90 @@
+.profile__infoContainer{
+  width: 248px;
+  height: 270px;
+  border-radius: 4px;
+  background-color: rgba(27,18,28,0.4);
+  padding: 10px;
+}
+.profile__header{
+  display: flex;
+  width: 100%;
+}
+.profile__image{ 
+  height: 40px;
+  width: 40px;
+  border-radius: 4px;
+  box-shadow: 0 0 8px 0 rgba(91,113,135,0.3);
+}
+.profile__name{}
+.profile__heading{
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+}
+.profile__subheading{
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  font-size: 11px;
+  line-height: 15px;
+}
+.profile__info{
+  border-top: 1px soldid rgba(255,255,255,0.1);
+}
+.profile__infoHeader{
+  width: 100%;
+}
+.profile__infoHeading{
+  color: #FFFFFF;
+  font-family: Korolev;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 14px;
+  text-align: left;
+}
+.profile__infoBody{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.profile__infoContent{
+  flex-basis: 50%;
+}
+.profile__infoLink{
+  flex-basis: 50%;
+  color: #46A6FF;
+  font-family: "Open Sans";
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 12px;
+  text-align: right;
+}
+
+.profile__stats{}
+.profile__statsTable{}
+.profile__statsTableHead th{
+  padding: 0;
+  color: #FFFFFF;
+  font-family: Korolev;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 14px;
+  border: none;
+}
+.profile__statsTableBody td{
+  color: #FFFFFF;
+  font-family: Korolev;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 18px;
+  border: none;
+}
+.profile__statsUp{}
+.profile__statsUp{}
+.profile__statsDown{}

@@ -1,0 +1,33 @@
+.profile__challangeContainer{
+  height: 270px;
+  width: 248px;
+}
+.profile__challange{
+  min-height: 58px;
+}
+.profile__challangeInfo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile__challangeTitle{
+  flex-grow: 2;
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 15px;
+  margin-bottom: 0;
+}
+.profile__challangeNumber{
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  font-size: 11px;
+  line-height: 12px;
+}
+.profile__challangeIcon{
+  height: 21px;
+  width: 13px;
+  border: 1px solid #D8EFF1;
+  background: linear-gradient(0deg, #BEE2E0 0%, #90A3AA 100%);
+}
