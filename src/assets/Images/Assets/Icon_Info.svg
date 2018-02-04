@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon_Info</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-95.000000, -56.000000)">
+        <g id="Icon_Info" transform="translate(95.000000, 56.000000)" fill="#FFFFFF">
+            <path d="M8,15.1578947 C11.9531961,15.1578947 15.1578947,11.9531961 15.1578947,8 C15.1578947,4.0468039 11.9531961,0.842105263 8,0.842105263 C4.0468039,0.842105263 0.842105263,4.0468039 0.842105263,8 C0.842105263,11.9531961 4.0468039,15.1578947 8,15.1578947 Z M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z" id="Oval-3" fill-rule="nonzero"></path>
+            <circle id="Oval-4" cx="8" cy="4.63157895" r="1.26315789"></circle>
+            <rect id="Rectangle-8" x="6.73684211" y="6.73684211" width="2.52631579" height="5.89473684" rx="1.26315789"></rect>
+        </g>
+    </g>
+</svg>

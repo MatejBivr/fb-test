@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="54px" viewBox="0 0 52 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon_Info</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-3.2%" y="-4.8%" width="106.4%" height="109.6%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Test_developer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-238.000000, -335.000000)">
+        <g id="Group" filter="url(#filter-1)" transform="translate(24.000000, 24.000000)" fill="#FFFFFF">
+            <g id="Left" transform="translate(10.000000, 35.000000)">
+                <g id="CHALLENGES" transform="translate(0.000000, 280.000000)">
+                    <g id="Icon_Info" transform="translate(222.000000, 15.000000)">
+                        <path d="M8,15.1578947 C11.9531961,15.1578947 15.1578947,11.9531961 15.1578947,8 C15.1578947,4.0468039 11.9531961,0.842105263 8,0.842105263 C4.0468039,0.842105263 0.842105263,4.0468039 0.842105263,8 C0.842105263,11.9531961 4.0468039,15.1578947 8,15.1578947 Z M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z" id="Oval-3" fill-rule="nonzero"></path>
+                        <circle id="Oval-4" cx="8" cy="4.63157895" r="1.26315789"></circle>
+                        <rect id="Rectangle-8" x="6.73684211" y="6.73684211" width="2.52631579" height="5.89473684" rx="1.26315789"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
