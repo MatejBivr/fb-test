@@ -30,7 +30,8 @@
   line-height: 15px;
 }
 .profile__info{
-  border-top: 1px soldid rgba(255,255,255,0.1);
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding: 10px 0;
 }
 .profile__infoHeader{
   width: 100%;
@@ -54,6 +55,12 @@
 
 .profile__infoContent{
   flex-basis: 50%;
+  color: #FFFFFF;
+  font-family: Korolev;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 18px;
+  align-self: baseline;
 }
 .profile__infoLink{
   flex-basis: 50%;
@@ -63,6 +70,7 @@
   font-weight: 600;
   line-height: 12px;
   text-align: right;
+  align-self: center;
 }
 
 .profile__stats{}
@@ -84,6 +92,8 @@
   font-weight: bold;
   line-height: 18px;
   border: none;
+  padding: 0;
+  // display: flex;
 }
 .profile__statsUp{}
 .profile__statsUp{}
