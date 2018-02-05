@@ -1,0 +1,47 @@
+.card{
+  width: 100%;
+  border-radius: 4px;
+  padding: 15px;
+  &.special-cls{
+    background: linear-gradient(180deg, rgba(120,206,202,0.4) 0%, rgba(49,130,107,0.2) 100%);
+  }
+}
+.card-body{}
+.card__header{
+  width: 100%;
+  position: relative;
+  min-height: 35px;
+}
+.card__heading{
+  color: #FFFFFF;
+  font-family: Korolev;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 18px;
+  margin-bottom: 0;
+}
+.card__subheading{
+  height: 12px;
+  width: 151px;
+  color: #46A6FF;
+  font-family: "Open Sans";
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 12px;
+  margin-top: 5px;
+}
+.card__infoLink{
+  
+  position: absolute;
+  top: 0;
+  right: -5px;
+}
+.card__infoIcon{
+  height: 16px;
+  width: 16px;
+  display: block;
+  background-color: red;
+}
+.card__body{}
+

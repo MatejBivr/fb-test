@@ -1,0 +1,19 @@
+ <div class="profile__challengeContainer">
+  <fb-card>
+    
+    <div class="profile__challenge" *ngFor="let challenge of challenges">
+      <div class="profile__challengeInfo">
+        <h3 class="profile__challengeTitle">{{challenge.name}}</h3>
+        <span class="profile__challengeNumber">{{challenge.number}}</span>
+        <span class="profile__challengeIcon">
+          <svg-icon src={{challenge.iconUrl}}></svg-icon>
+        </span>
+      </div>
+      <fb-progressbar
+        [progress]="challenge.progress"
+        [color]="challenge.color">          
+      </fb-progressbar>
+    </div>
+
+  </fb-card>
+</div>

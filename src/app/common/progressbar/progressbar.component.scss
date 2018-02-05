@@ -1,0 +1,23 @@
+.progressbar{
+  display: flex;
+  height: 10px;
+  width: 100%;
+  border-radius: 8px;
+  border: 2px solid #172420;
+  background-color: #231725;
+}
+.progressbar__item{
+  height: 6px;
+  width: 100%;
+  display: block;
+  border-right: 2px solid #172420;
+  &:first-of-type {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  &:last-of-type {
+    border-right-color: transparent;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+}
