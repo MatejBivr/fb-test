@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   template: `
     <section class="profile">
       <fb-info></fb-info>
-      <fb-challange></fb-challange>
+      <fb-challenge></fb-challenge>
      </section>
   `,
   styles: ['.profile { max-width: 25%; }']

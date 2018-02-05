@@ -7,7 +7,7 @@ import { AngularSvgIconModule } from 'angular-svg-icon';
 import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
 import { InfoComponent } from './profile/info/info.component';
-import { ChallangeComponent } from './profile/challange/challange.component';
+import { ChallengeComponent } from './profile/challenge/challenge.component';
 import { CardComponent } from './common/card/card.component';
 import { TicketComponent } from './common/ticket/ticket.component';
 import { ProgressbarComponent } from './common/progressbar/progressbar.component';
@@ -18,7 +18,7 @@ import { ProgressbarComponent } from './common/progressbar/progressbar.component
     AppComponent,
     ProfileComponent,
     InfoComponent,
-    ChallangeComponent,
+    ChallengeComponent,
     CardComponent,
     TicketComponent,
     ProgressbarComponent

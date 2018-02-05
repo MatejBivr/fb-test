@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'fb-progressbar',
@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./progressbar.component.scss']
 })
 export class ProgressbarComponent implements OnInit {
-
+  @Input() progress: Array<Boolean>;
+  @Input() color: string;
   constructor() { }
 
   ngOnInit() {
+    
   }
 
 }
