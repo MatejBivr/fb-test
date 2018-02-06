@@ -12,6 +12,7 @@ import { CardComponent } from './common/card/card.component';
 import { TicketComponent } from './common/ticket/ticket.component';
 import { ProgressbarComponent } from './common/progressbar/progressbar.component';
 import { LadderComponent } from './ladder/ladder.component';
+import { HistoryComponent } from './history/history.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { LadderComponent } from './ladder/ladder.component';
     TicketComponent,
     ProgressbarComponent,
     LadderComponent,
+    HistoryComponent,
   ],
   imports: [
     BrowserModule,

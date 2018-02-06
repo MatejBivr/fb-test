@@ -1,0 +1,34 @@
+<section class="history">
+  <fb-card
+    [heading]="heading"
+    [subheading]="subheading"
+    [infoUrl]="infoUrl"
+    [linkUrl]="linkUrl"
+    [bgc]="bgc"
+  >
+  
+    <table class="table history__table">
+      <thead>
+        <tr class="history__tableHead">
+          <th>Mode</th>
+          <th>Pos</th>
+          <th>K</th>
+          <th>Time</th>
+          <th>Date &amp; Time</th>
+          <th>PTS</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="history__tableBody" *ngFor="let match of matches" >
+          <td>{{match.mode}}</td>
+          <td>{{match.pos}}</td>
+          <td>{{match.k}}</td>
+          <td>{{match.time}}</td>
+          <td>{{match.date}}</td>
+          <td>{{match.PTS}}</td>
+        </tr>
+      </tbody>
+    </table>
+    <a href="#" class="history__link">Scroll for more</a>
+  </fb-card>
+</section>

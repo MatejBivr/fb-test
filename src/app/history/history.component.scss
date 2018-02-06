@@ -1,0 +1,41 @@
+.history {
+  height: 361px;
+  width: 328px;
+}
+
+.history__table{
+
+}
+
+.history__tableHead {  
+  > * {
+    border-bottom: none;
+    color: rgba(255,255,255,0.6);
+    font-family: Verdana;
+    font-size: 10px;
+    line-height: 12px;
+    padding: 5px 0 11px 0;
+  }
+}
+.history__tableBody{
+  > * {
+    border-top: 1px solid rgba(255,255,255,0.05);;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 10px;
+    line-height: 14px;
+    padding: 5px 0 11px 0;
+    vertical-align: bottom;
+  }
+}
+
+.history__link {
+  display: block;
+  color: #46A6FF;
+  font-family: "Open Sans";
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 15px;
+  margin: 0 auto;
+  text-align: center;
+}
