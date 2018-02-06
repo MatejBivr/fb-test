@@ -12,7 +12,6 @@ import { CardComponent } from './common/card/card.component';
 import { TicketComponent } from './common/ticket/ticket.component';
 import { ProgressbarComponent } from './common/progressbar/progressbar.component';
 import { LadderComponent } from './ladder/ladder.component';
-import { PlayericonComponent } from './common/playericon/playericon.component';
 
 
 @NgModule({
@@ -25,7 +24,6 @@ import { PlayericonComponent } from './common/playericon/playericon.component';
     TicketComponent,
     ProgressbarComponent,
     LadderComponent,
-    PlayericonComponent
   ],
   imports: [
     BrowserModule,

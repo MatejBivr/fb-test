@@ -11,11 +11,11 @@ export class LadderComponent implements OnInit {
   infoUrl:string = '#';
   linkUrl:string = '#';
   bgc:string = 'linear-gradient(180deg, rgba(162,122,180,0.4) 0%, rgba(62,85,144,0.2) 100%)';
-  progressColor:string = 'green';
+  progressColor:string = '#72BB1C';
   players:Array<Object> = [
     {
       name: 'Elkynator',
-      avatarUrl: '#',
+      avatarUrl: './assets/Images/Assets/IMG_Avatar_1.png',
       kills: 24,
       wins: 87,
       points: 642,
@@ -23,7 +23,7 @@ export class LadderComponent implements OnInit {
     },
     {
       name: 'Elkynator',
-      avatarUrl: '#',
+      avatarUrl: './assets/Images/Assets/IMG_Avatar_2.png',
       kills: 24,
       wins: 87,
       points: 642,
@@ -31,7 +31,7 @@ export class LadderComponent implements OnInit {
     },
     {
       name: 'Elkynator',
-      avatarUrl: '#',
+      avatarUrl: './assets/Images/Assets/IMG_Avatar_3.png',
       kills: 24,
       wins: 87,
       points: 642,
@@ -39,7 +39,7 @@ export class LadderComponent implements OnInit {
     },
     {
       name: 'Elkynator',
-      avatarUrl: '#',
+      avatarUrl: './assets/Images/Assets/IMG_Avatar_1.png',
       kills: 24,
       wins: 87,
       points: 642,
@@ -47,7 +47,7 @@ export class LadderComponent implements OnInit {
     },
     {
       name: 'Elkynator',
-      avatarUrl: '#',
+      avatarUrl: './assets/Images/Assets/IMG_Avatar_2.png',
       kills: 24,
       wins: 87,
       points: 642,
