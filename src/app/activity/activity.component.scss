@@ -1,0 +1,14 @@
+.activity{
+  height: 179px;
+  width: 327px;
+}
+
+.activity__table{}
+.activity__tableBody{
+  > * {
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 10px;
+    line-height: 14px;
+  }
+}
