@@ -1,0 +1,30 @@
+<section class="activity">
+  <fb-card
+    [heading]="heading"
+    [subheading]="subheading"
+    [infoUrl]="infoUrl"
+    [linkUrl]="linkUrl"
+    [bgc]="bgc"
+  >
+    <table class="table activity__table">
+      
+      <tbody>
+        <tr  *ngFor="let activity of activities" [ngSwitch]="iconFormat" class="activity__tableBody">
+          <td>
+            <img src="{{activity.avatarUrl}}" alt={{activity.name}}>
+            {{activity.name}}
+          </td>
+          <td>{{activity.activityTitle}}</td>
+          
+          <td *ngSwitchCase="'svg'">
+            <svg-icon src={{activity.activityIcon}}></svg-icon>
+          </td>
+          <td *ngSwitchDefault>
+            <img src="{{activity.activityIcon}}" alt={{activity.activityTitle}}>
+          </td>
+        </tr>                    
+      </tbody>
+    </table>
+
+  </fb-card>
+</section>

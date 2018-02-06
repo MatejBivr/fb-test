@@ -22,7 +22,7 @@ export class LadderComponent implements OnInit {
       played: [7, 10]
     },
     {
-      name: 'Elkynator',
+      name: 'A Lah Kebab',
       avatarUrl: './assets/Images/Assets/IMG_Avatar_2.png',
       kills: 24,
       wins: 87,
@@ -38,7 +38,7 @@ export class LadderComponent implements OnInit {
       played: [7, 10]
     },
     {
-      name: 'Elkynator',
+      name: 'A Lah Kebab',
       avatarUrl: './assets/Images/Assets/IMG_Avatar_1.png',
       kills: 24,
       wins: 87,
@@ -46,7 +46,7 @@ export class LadderComponent implements OnInit {
       played: [7, 10]
     },
     {
-      name: 'Elkynator',
+      name: 'A Lah Kebab',
       avatarUrl: './assets/Images/Assets/IMG_Avatar_2.png',
       kills: 24,
       wins: 87,

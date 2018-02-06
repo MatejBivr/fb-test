@@ -13,6 +13,7 @@ import { TicketComponent } from './common/ticket/ticket.component';
 import { ProgressbarComponent } from './common/progressbar/progressbar.component';
 import { LadderComponent } from './ladder/ladder.component';
 import { HistoryComponent } from './history/history.component';
+import { ActivityComponent } from './activity/activity.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { HistoryComponent } from './history/history.component';
     ProgressbarComponent,
     LadderComponent,
     HistoryComponent,
+    ActivityComponent,
   ],
   imports: [
     BrowserModule,
