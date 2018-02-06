@@ -14,6 +14,7 @@ import { ProgressbarComponent } from './common/progressbar/progressbar.component
 import { LadderComponent } from './ladder/ladder.component';
 import { HistoryComponent } from './history/history.component';
 import { ActivityComponent } from './activity/activity.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { ActivityComponent } from './activity/activity.component';
     LadderComponent,
     HistoryComponent,
     ActivityComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
