@@ -1,0 +1,53 @@
+.ladder{
+  height: 550px;
+  width: 328px;
+  border-radius: 4px;
+}
+.ladder__currentContainer{
+  display: flex;
+  align-items: center;
+  height: 28px;
+  width: 298px;
+  border-radius: 2px;
+  background-color: rgba(255,255,255,0.1);
+  padding: 0 10px;
+}
+.ladder__mod{
+  color: #FFFFFF;
+  font-family: Korolev;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 16px;
+  flex-grow: 2;
+}
+.ladder__timeText{
+  color: #FFFFFF;
+  font-family: Korolev;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 16px;
+}
+
+.ladder__timeNumeral{
+  color: rgba(255,255,255,0.6);
+  font-family: Verdana,"Bitstream Vera Sans", "DejaVu Sans",Arial;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.ladder__profile{}
+.ladder__profileTable{}
+.profile__statsUp{}
+.profile__statsUp{}
+.profile__statsDown{}
+.ladder__progressContainer{
+  display: flex;
+}
+.ladder__progress{
+  flex-grow: 1;
+}
+.ladder__profilePlayed{
+  max-width: 20%;
+}

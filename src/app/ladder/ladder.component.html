@@ -1,0 +1,62 @@
+<section class="ladder">
+  <fb-card
+    [heading]="heading"
+    [subheading]="subheading"
+    [infoUrl]="infoUrl"
+    [linkUrl]="linkUrl"
+    [bgc]="bgc"
+  >
+    <div class="ladder__currentContainer">
+      <div class="ladder__mod">FPP Solo</div>      
+      <span class="ladder__timeText">Ends in:</span>
+      <div class="ladder__timeNumeral">02d:15h:08m</div>
+      <svg-icon src="../assets/Images/Assets/Icn_Arrow_DOWN_blue.svg"></svg-icon>
+    </div>
+  
+    <div class="ladder__profile">
+      <table class="table ladder__profileTable">
+        <tbody>
+          <tr>
+            <td>29</td>
+            <td class="profile__statsUp">{{selectedPlayer.name}}</td>
+            <td class="profile__statsUp">{{selectedPlayer.wins}} wins</td>
+            <td class="profile__statsDown">{{selectedPlayer.points}} pts</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="ladder__progressContainer">
+        <div class="ladder__progress">
+          <fb-progressbar
+            [progress]="selectedPlayer.played"
+            [color]="progressColor">          
+          </fb-progressbar>
+        </div>
+        <div class="ladder__profilePlayed">
+          7/10 played
+        </div>
+      </div>     
+    </div>
+    
+    <table class="table ladder__table">
+      <thead>
+        <tr>
+          <th>Pos</th>
+          <th>Name</th>
+          <th>Kills</th>
+          <th>Wins</th>
+          <th>Points</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let player of players; let i = index ">
+          <th scope="row">{{i}}</th>
+          <td>{{player.name}}</td>
+          <td>{{player.kills}}</td>
+          <td>{{player.wins}}</td>
+          <td>{{player.points}}</td>
+        </tr>       
+      </tbody>
+    </table>
+    <div class="btn btn-danger">load</div>
+   </fb-card>
+</section>

@@ -1,5 +1,11 @@
  <div class="profile__challengeContainer">
-  <fb-card>
+  <fb-card
+    [heading]="heading"
+    [subheading]="subheading"
+    [infoUrl]="infoUrl"
+    [linkUrl]="linkUrl"
+    [bgc]="bgc"
+  >
     
     <div class="profile__challenge" *ngFor="let challenge of challenges">
       <div class="profile__challengeInfo">
