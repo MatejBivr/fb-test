@@ -1,8 +1,10 @@
-<div class="card card-body special-cls">
+<div class="card card-body" [ngStyle]="{
+  'background': bgc
+}">
   <div class="card__header">
-    <h2 class="card__heading">MY CHALLENGES</h2>
-    <div class="card__subheading"><a class="card__subheadingLink" href="#">How challenges work?</a></div>
-    <a href="" class="card__infoLink">
+    <h2 class="card__heading">{{heading}}</h2>
+    <div class="card__subheading"><a class="card__subheadingLink" href={{linkUrl}}>{{subheading}}</a></div>
+    <a href={{infoUrl}} class="card__infoLink">
       <svg-icon src="../../assets/Images/Assets/Icon_Info.svg"></svg-icon>
     </a>    
   </div>

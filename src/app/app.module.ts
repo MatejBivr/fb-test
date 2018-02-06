@@ -11,6 +11,7 @@ import { ChallengeComponent } from './profile/challenge/challenge.component';
 import { CardComponent } from './common/card/card.component';
 import { TicketComponent } from './common/ticket/ticket.component';
 import { ProgressbarComponent } from './common/progressbar/progressbar.component';
+import { LadderComponent } from './ladder/ladder.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { ProgressbarComponent } from './common/progressbar/progressbar.component
     ChallengeComponent,
     CardComponent,
     TicketComponent,
-    ProgressbarComponent
+    ProgressbarComponent,
+    LadderComponent,
   ],
   imports: [
     BrowserModule,

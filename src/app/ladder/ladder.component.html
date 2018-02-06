@@ -1,0 +1,68 @@
+<section class="ladder">
+  <fb-card
+    [heading]="heading"
+    [subheading]="subheading"
+    [infoUrl]="infoUrl"
+    [linkUrl]="linkUrl"
+    [bgc]="bgc"
+  >
+    <div class="ladder__currentContainer">
+      <div class="ladder__mod">FPP Solo</div>      
+      <span class="ladder__timeText">Ends in:</span>
+      <div class="ladder__timeNumeral">02d:15h:08m</div>
+      <svg-icon src="../assets/Images/Assets/Icn_Arrow_DOWN_blue.svg"></svg-icon>
+    </div>
+  
+    <div class="ladder__profile">
+      <table class="table ladder__profileTable">
+        <tbody>
+          <tr>
+            <td class="ladder__profileTableItem">29</td>
+            <td class="ladder__profileWAvatar">
+              <img src={{selectedPlayer.avatarUrl}} alt={{selectedPlayer.name}}>
+              {{selectedPlayer.name}}
+            </td>
+            <td class="ladder__profileTableItem">{{selectedPlayer.wins}} wins</td>
+            <td class="ladder__profileTableItem">{{selectedPlayer.points}} pts</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="ladder__progressContainer">
+        <div class="ladder__progress">
+          <fb-progressbar
+            [progress]="selectedPlayer.played"
+            [color]="progressColor">          
+          </fb-progressbar>
+        </div>
+        <div class="ladder__profilePlayedContainer">
+          <span class="ladder__profilePlayed">{{selectedPlayer.played[0]}}/</span><span class="ladder__profileOutOf">{{selectedPlayer.played[1]}}</span> played
+        </div>
+      </div>     
+    </div>
+    
+    <table class="table ladder__table">
+      <thead>
+        <tr class="ladder__tableHead">
+          <th>Pos</th>
+          <th>Name</th>
+          <th>Kills</th>
+          <th>Wins</th>
+          <th>Points</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let player of players; let i = index " class="ladder__tableBody">
+          <th scope="row">{{i}}</th>
+          <td class="ladder__tableWAvatar">
+            <img src={{player.avatarUrl}} alt={{player.name}}>
+            {{player.name}}
+          </td>
+          <td>{{player.kills}}</td>
+          <td>{{player.wins}}</td>
+          <td>{{player.points}}</td>
+        </tr>       
+      </tbody>
+    </table>
+    <a href="#" class="btn ladder__button">Restart</a>
+   </fb-card>
+</section>
