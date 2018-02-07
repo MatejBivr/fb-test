@@ -1,13 +1,18 @@
 .profile__infoContainer{
-  width: 248px;
-  height: 270px;
+  // width: 248px;
+  // height: 270px;
+  height: 100%;
+  width: 100%;
   border-radius: 4px;
   background-color: rgba(27,18,28,0.4);
   padding: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .profile__header{
   display: flex;
   width: 100%;
+  padding-bottom: 15px;
 }
 .profile__image{ 
   height: 40px;
@@ -15,23 +20,27 @@
   border-radius: 4px;
   box-shadow: 0 0 8px 0 rgba(91,113,135,0.3);
 }
-.profile__name{}
+.profile__name{
+  padding: 0 0 0 10px;
+}
 .profile__heading{
   color: #FFFFFF;
   font-family: "Open Sans";
   font-size: 16px;
   font-weight: bold;
   line-height: 20px;
+  margin-bottom: 0;
 }
 .profile__subheading{
   color: #FFFFFF;
   font-family: "Open Sans";
   font-size: 11px;
   line-height: 15px;
+  margin-bottom: 0;
 }
 .profile__info{
   border-top: 1px solid rgba(255,255,255,0.1);
-  padding: 10px 0;
+  padding: 10px 0 15px;
 }
 .profile__infoHeader{
   width: 100%;
@@ -44,6 +53,7 @@
   letter-spacing: 1px;
   line-height: 14px;
   text-align: left;
+  margin-bottom: 10px;
 }
 .profile__infoBody{
   display: -webkit-flex;
@@ -61,6 +71,9 @@
   font-weight: bold;
   line-height: 18px;
   align-self: baseline;
+  .profile_InfoSpan {
+    margin-right: 2.5px;
+  }
 }
 .profile__infoLink{
   flex-basis: 50%;
@@ -73,8 +86,12 @@
   align-self: center;
 }
 
-.profile__stats{}
-.profile__statsTable{}
+.profile__stats{
+  padding-bottom: 4px;
+}
+.profile__statsTable{
+  margin-bottom: 0;
+}
 .profile__statsTableHead th{
   padding: 0;
   color: #FFFFFF;
@@ -83,7 +100,17 @@
   font-weight: 500;
   letter-spacing: 1px;
   line-height: 14px;
+  padding: 7px 0 6px;
   border: none;
+  text-align: right;
+  &:first-of-type{
+    text-align: left;
+  }
+  &:nth-of-type(2),
+  &:nth-of-type(3){
+    text-align: center;
+    
+  }
 }
 .profile__statsTableBody td{
   color: #FFFFFF;
@@ -93,7 +120,11 @@
   line-height: 18px;
   border: none;
   padding: 0;
-  // display: flex;
+  text-align: right;
+  &:first-of-type{
+    text-align: left;
+  }
+  
 }
 .profile__statsUp{}
 .profile__statsUp{}

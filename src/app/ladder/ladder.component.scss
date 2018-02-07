@@ -1,6 +1,9 @@
+:host {grid-row: span 2;}
 .ladder{
-  height: 550px;
-  width: 328px;
+  // height: 550px;
+  // width: 328px;
+  height: 100%;
+  width: 100%;
   border-radius: 4px;
 }
 .ladder__currentContainer{
@@ -11,6 +14,7 @@
   border-radius: 2px;
   background-color: rgba(255,255,255,0.1);
   padding: 0 10px;
+  margin-bottom: 10px;
 }
 .ladder__mod{
   color: #FFFFFF;
@@ -22,19 +26,21 @@
   flex-grow: 2;
 }
 .ladder__timeText{
+  color: rgba(255,255,255,0.6);
+  font-family: Verdana,"Bitstream Vera Sans", "DejaVu Sans",Arial;
+  font-size: 10px;
+  line-height: 12px;
+  padding-right: 9px;
+}
+
+.ladder__timeNumeral{
   color: #FFFFFF;
   font-family: Korolev;
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 1px;
   line-height: 16px;
-}
-
-.ladder__timeNumeral{
-  color: rgba(255,255,255,0.6);
-  font-family: Verdana,"Bitstream Vera Sans", "DejaVu Sans",Arial;
-  font-size: 10px;
-  line-height: 12px;
+  padding-right: 12px;
 }
 
 .ladder__profile{
@@ -43,26 +49,40 @@
   border-radius: 2px;
   background-color: rgba(70,166,255,0.2);
   padding: 10px;
+  margin-bottom: 10px;
 }
 
 .ladder__profileTable{
-  margin-bottom: 0;
+  text-align: center;
+  margin-bottom: 10px;
+  td:last-of-type{
+    text-align: right;
+  }
 }
+
 .ladder__profileTableItem,
 .ladder__profileWAvatar{
   border-top: none;
-  vertical-align: bottom;
+  // vertical-align: baseline;
   color: #FFFFFF;
   font-family: "Open Sans";
   font-size: 12px;
   font-weight: 600;
   line-height: 17px;
-  padding: 0;
 }
-.ladder__profileWAvatar,
-.ladder__tableWAvatar{
+.ladder__profileTableItem{
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 15px;
+  padding: 8px 0 0 0 ;
+}
+.ladder__profileWAvatar{
   display: flex;
-  align-items:baseline;
+  align-items:flex-end;
+  padding: 0;
+  img{
+    margin: 0 10px 0 6px;
+  }
 }
 .ladder__progressContainer{
   display: flex;
@@ -70,49 +90,72 @@
 .ladder__progress{
   flex-basis: 66.66%;
 }
+
 .ladder__profilePlayedContainer{
   flex-basis: 33.33%;
   color: rgba(255,255,255,0.6);
-  font-family: Verdana;
+  font-family: Verdana,"Bitstream Vera Sans", "DejaVu Sans",Arial;
   font-size: 9px;
   line-height: 11px;
   text-align: right;
 }
+
 .ladder__profilePlayed{
   color: #72BB1C;  
-  font-family: Verdana;
+  font-family: Verdana,"Bitstream Vera Sans", "DejaVu Sans",Arial;
   font-size: 9px;
   line-height: 11px;
   text-align: right;
+  margin-bottom: 10px;
 }
 .ladder__profileOutOf{
   color: #FFFFFF;
-  font-family: Verdana;
+  font-family: Verdana,"Bitstream Vera Sans", "DejaVu Sans",Arial;
   font-size: 9px;
   line-height: 11px;
   text-align: right;
 }
 
 .ladder__tableHead {  
-  > * {
-    border-bottom: none;
-    color: rgba(255,255,255,0.6);
-    font-family: Verdana;
-    font-size: 10px;
-    line-height: 12px;
-    padding: 5px 0 11px 0;
-  }
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  color: rgba(255,255,255,0.6);
+  font-family: Verdana,"Bitstream Vera Sans", "DejaVu Sans",Arial;
+  font-size: 10px;
+  line-height: 12px;
+  padding: 2px 0 8px 0;
+  display: grid;
+  grid-template-columns: 42px 1fr 42px 40px 41px;
+  grid-gap: 3px;
 }
 .ladder__tableBody{
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  font-size: 10px;
+  line-height: 14px;
+  padding: 13px 0 6px 0;
+  display: grid;
+  grid-template-columns: 8px 1fr 40px 45px 30px;
+  grid-gap: 3px;
   > * {
-    border-top: 1px solid rgba(255,255,255,0.05);;
-    color: #FFFFFF;
-    font-family: "Open Sans";
-    font-size: 10px;
-    line-height: 14px;
-    padding: 5px 0 11px 0;
-    vertical-align: bottom;
+    display: block;
+    align-content: baseline;
+    &.ladder__tableWAvatar{
+      position: relative;
+      padding-left: 35px;
+      img{
+        position: absolute;
+        top: -7px;
+        left:0;
+        height: 24px;
+      }
+    }
   }
+  
+}
+
+.ladder__table{
+  margin-bottom: 20px;
 }
 
 .ladder__button {

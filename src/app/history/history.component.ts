@@ -57,6 +57,30 @@ export class HistoryComponent implements OnInit {
       time:'14:35',
       date:'3 min ago',
       PTS:120
+    },
+    {
+      mode: 'FPP',
+      pos: 46,
+      k: 12,
+      time:'14:35',
+      date:'3 min ago',
+      PTS:120
+    },
+    {
+      mode: 'FPP',
+      pos: 46,
+      k: 12,
+      time:'14:35',
+      date:'3 min ago',
+      PTS:120
+    },
+    {
+      mode: 'FPP',
+      pos: 46,
+      k: 12,
+      time:'14:35',
+      date:'3 min ago',
+      PTS:120
     }    
   ];
   constructor() { }

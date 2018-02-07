@@ -1,32 +1,40 @@
 .history {
-  height: 361px;
-  width: 328px;
+  // height: 361px;
+  // width: 328px;
+  height: 100%;
+  width: 100%;
+}
+
+:host /deep/ .card__header{
+  margin-bottom: 0 !important;
 }
 
 .history__table{
-
+  
 }
 
 .history__tableHead {  
-  > * {
-    border-bottom: none;
-    color: rgba(255,255,255,0.6);
-    font-family: Verdana;
-    font-size: 10px;
-    line-height: 12px;
-    padding: 5px 0 11px 0;
-  }
+  border-bottom: 1px solid rgba(255,255,255,0.05);;
+  color: rgba(255,255,255,0.6);
+  font-family: Verdana,"Bitstream Vera Sans", "DejaVu Sans",Arial;
+  font-size: 10px;
+  line-height: 12px;
+  padding: 5px 0 7px 0;
+  display: grid;
+  grid-template-columns: 30px 20px 20px 50px 1fr 30px;
+  grid-gap: 3px;
 }
 .history__tableBody{
-  > * {
-    border-top: 1px solid rgba(255,255,255,0.05);;
-    color: #FFFFFF;
-    font-family: "Open Sans";
-    font-size: 10px;
-    line-height: 14px;
-    padding: 5px 0 11px 0;
-    vertical-align: bottom;
-  }
+  border-bottom: 1px solid rgba(255,255,255,0.05);;
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  font-size: 10px;
+  line-height: 14px;
+  padding: 6px 0 6px 0;
+  vertical-align: bottom;
+  display: grid;
+  grid-template-columns: 30px 20px 20px 50px 1fr 30px;
+  grid-gap: 3px;
 }
 
 .history__link {
@@ -36,6 +44,6 @@
   font-size: 11px;
   font-weight: 600;
   line-height: 15px;
-  margin: 0 auto;
+  margin: 15px auto 0;
   text-align: center;
 }

@@ -1,14 +1,40 @@
 .activity{
-  height: 179px;
-  width: 327px;
+  // height: 179px;
+  // width: 327px;
+  height: 100%;
+  width: 100%;
+}
+
+:host /deep/ .card__header{
+  margin-bottom: 0 !important;
 }
 
 .activity__table{}
-.activity__tableBody{
-  > * {
+.activity__tableBody{ 
     color: #FFFFFF;
     font-family: "Open Sans";
     font-size: 10px;
     line-height: 14px;
+    display: grid;
+    grid-template-columns: 130px 1fr 25px;
+    grid-gap: 15px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    &:last-of-type{
+      border: none;
+    }
+    > * {
+      display: flex;
+      height: 35px;
+      padding-bottom: 7px;
+      align-items: flex-end;
+    }
+}
+.activity__tableWIcon{
+  position: relative;
+  padding-left: 27px;
+  img{
+    position: absolute;
+    left: 0;
+    top: 6px;
   }
 }

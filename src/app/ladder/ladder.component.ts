@@ -52,6 +52,30 @@ export class LadderComponent implements OnInit {
       wins: 87,
       points: 642,
       played: [7, 10]
+    },
+    {
+      name: 'A Lah Kebab',
+      avatarUrl: './assets/Images/Assets/IMG_Avatar_2.png',
+      kills: 24,
+      wins: 87,
+      points: 642,
+      played: [7, 10]
+    },
+    {
+      name: 'A Lah Kebab',
+      avatarUrl: './assets/Images/Assets/IMG_Avatar_2.png',
+      kills: 24,
+      wins: 87,
+      points: 642,
+      played: [7, 10]
+    },
+    {
+      name: 'A Lah Kebab',
+      avatarUrl: './assets/Images/Assets/IMG_Avatar_2.png',
+      kills: 24,
+      wins: 87,
+      points: 642,
+      played: [7, 10]
     }
   ];
 
