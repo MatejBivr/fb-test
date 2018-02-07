@@ -22,7 +22,7 @@ export class ActivityComponent implements OnInit {
       activityTitle:'won chicken dinner',
       activityIcon: './assets/Images/Assets/IMG_ChickenDinner.png',
       iconFormat: 'png'
-    }
+    },
     {
       name: 'Elkynator',
       avatarUrl: './assets/Images/Assets/IMG_Avatar_3.png',

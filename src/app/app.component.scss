@@ -7,6 +7,8 @@
   margin: 24px auto 28px;
   font-family: 'korolev';
   padding: 35px 0 40px 0;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 248px 328px 328px;
+  grid-template-rows: 361px 179px;
+  grid-gap:10px;
 }
