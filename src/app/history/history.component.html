@@ -7,28 +7,26 @@
     [bgc]="bgc"
   >
   
-    <table class="table history__table">
-      <thead>
-        <tr class="history__tableHead">
-          <th>Mode</th>
-          <th>Pos</th>
-          <th>K</th>
-          <th>Time</th>
-          <th>Date &amp; Time</th>
-          <th>PTS</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr class="history__tableBody" *ngFor="let match of matches" >
-          <td>{{match.mode}}</td>
-          <td>{{match.pos}}</td>
-          <td>{{match.k}}</td>
-          <td>{{match.time}}</td>
-          <td>{{match.date}}</td>
-          <td>{{match.PTS}}</td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="history__table">
+      <div class="history__tableHead">
+        <span>Mode</span>
+        <span>Pos</span>
+        <span>K</span>
+        <span>Time</span>
+        <span>Date &amp; Time</span>
+        <span>PTS</span>
+      </div>
+    
+
+      <div class="history__tableBody" *ngFor="let match of matches" >
+        <span>{{match.mode}}</span>
+        <span>{{match.pos}}</span>
+        <span>{{match.k}}</span>
+        <span>{{match.time}}</span>
+        <span>{{match.date}}</span>
+        <span [style.color]="'#7ED321'">{{match.PTS}}</span>
+      </div>
+    </div>
     <a href="#" class="history__link">Scroll for more</a>
   </fb-card>
 </section>

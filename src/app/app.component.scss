@@ -6,9 +6,9 @@
   background: radial-gradient(circle, #4A2E4D 0%, #3F2742 14.57%, #000000 100%);
   margin: 24px auto 28px;
   font-family: 'korolev';
-  padding: 35px 0 40px 0;
+  padding: 35px 10px 0 10px;
   display: grid;
-  grid-template-columns: 248px 328px 328px;
-  grid-template-rows: 361px 179px;
+  grid-template-columns: 248px 1fr 1fr;
+  grid-template-rows: 361px 179px 30px;
   grid-gap:10px;
 }

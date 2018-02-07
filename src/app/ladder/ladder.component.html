@@ -22,7 +22,7 @@
               <img src={{selectedPlayer.avatarUrl}} alt={{selectedPlayer.name}}>
               {{selectedPlayer.name}}
             </td>
-            <td class="ladder__profileTableItem">{{selectedPlayer.wins}} wins</td>
+            <td class="ladder__profileTableItem">{{selectedPlayer.kills}} wins</td><td class="ladder__profileTableItem">{{selectedPlayer.wins}} wins</td>
             <td class="ladder__profileTableItem">{{selectedPlayer.points}} pts</td>
           </tr>
         </tbody>
@@ -40,29 +40,25 @@
       </div>     
     </div>
     
-    <table class="table ladder__table">
-      <thead>
-        <tr class="ladder__tableHead">
-          <th>Pos</th>
-          <th>Name</th>
-          <th>Kills</th>
-          <th>Wins</th>
-          <th>Points</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr *ngFor="let player of players; let i = index " class="ladder__tableBody">
-          <th scope="row">{{i}}</th>
-          <td class="ladder__tableWAvatar">
+    <div class="ladder__table">
+        <div class="ladder__tableHead">
+          <span>Pos.</span>
+          <span>Name</span>
+          <span>Kills</span>
+          <span>Wins</span>
+          <span>Points</span>
+        </div>
+        <div *ngFor="let player of players; let i = index " class="ladder__tableBody">
+          <span scope="row">{{i+1}}</span>
+          <span class="ladder__tableWAvatar">
             <img src={{player.avatarUrl}} alt={{player.name}}>
             {{player.name}}
-          </td>
-          <td>{{player.kills}}</td>
-          <td>{{player.wins}}</td>
-          <td>{{player.points}}</td>
-        </tr>       
-      </tbody>
-    </table>
+          </span>
+          <span>{{player.kills}}</span>
+          <span>{{player.wins}}</span>
+          <span>{{player.points}}</span>
+        </div>       
+    </div>
     <a href="#" class="btn ladder__button">Restart</a>
    </fb-card>
 </section>

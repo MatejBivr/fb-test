@@ -6,25 +6,22 @@
     [linkUrl]="linkUrl"
     [bgc]="bgc"
   >
-    <table class="table activity__table">
-      
-      <tbody>
-        <tr  *ngFor="let activity of activities" [ngSwitch]="iconFormat" class="activity__tableBody">
-          <td>
+    <div class="activity__table">      
+        <div  *ngFor="let activity of activities" [ngSwitch]="iconFormat" class="activity__tableBody">
+          <span class="activity__tableWIcon">
             <img src="{{activity.avatarUrl}}" alt={{activity.name}}>
             {{activity.name}}
-          </td>
-          <td>{{activity.activityTitle}}</td>
+          </span>
+          <span>{{activity.activityTitle}}</span>
           
-          <td *ngSwitchCase="'svg'">
+          <span *ngSwitchCase="'svg'">
             <svg-icon src={{activity.activityIcon}}></svg-icon>
-          </td>
-          <td *ngSwitchDefault>
+          </span>
+          <span *ngSwitchDefault>
             <img src="{{activity.activityIcon}}" alt={{activity.activityTitle}}>
-          </td>
-        </tr>                    
-      </tbody>
-    </table>
+          </span>
+        </div>                    
+    </div>
 
   </fb-card>
 </section>

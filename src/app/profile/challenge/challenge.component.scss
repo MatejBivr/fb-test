@@ -1,14 +1,22 @@
 .profile__challengeContainer{
-  height: 270px;
-  width: 248px;
+  // height: 270px;
+  // width: 248px;
+  height: 100%;
+  width: 100%;
 }
 .profile__challenge{
+  &:first-of-type{
+    margin-top: 3px;
+  }
   min-height: 58px;
+  border-top: 1px solid #332323;
+  padding: 14px 0 6.5px;
 }
 .profile__challengeInfo{
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
+  padding-bottom: 3px;
 }
 .profile__challengeTitle{
   flex-grow: 2;
@@ -26,6 +34,7 @@
   line-height: 12px;
 }
 .profile__challengeIcon{
-  height: 21px;
-  width: 13px;
+  height: 25px;
+  width: 23px;
+  margin-left: 3px;
 }
