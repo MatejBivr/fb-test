@@ -3,6 +3,8 @@
   // width: 328px;
   height: 100%;
   width: 100%;
+  z-index: 1;
+  padding-right: 10px;
 }
 
 :host /deep/ .card__header{

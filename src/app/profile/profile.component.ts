@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
       <fb-challenge></fb-challenge>
      </section>
   `,
-  styles: [':host {grid-row: span 2;}']
+  styles: [':host {grid-row: span 2;} .profile{z-index:1; margin-left:10px;}']
 })
 export class ProfileComponent implements OnInit {
 
