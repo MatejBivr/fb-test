@@ -2,13 +2,24 @@
   position: relative;
   height: 625px;
   max-width: 944px;
-  opacity: 0.8;
+  // opacity: 0.8;
   background: radial-gradient(circle, #4A2E4D 0%, #3F2742 14.57%, #000000 100%);
+  // background: radial-gradient(circle, rgba(74, 46, 77, 0.8) 0%, rgba(63, 39, 66, 0.8) 14.57%, rgba(0,0,0,0.8) 100%);
   margin: 24px auto 28px;
   font-family: 'korolev';
-  padding: 35px 10px 0 10px;
+  padding: 35px 0 0 0;
   display: grid;
-  grid-template-columns: 248px 1fr 1fr;
+  grid-template-columns: 258px 1fr 1fr;
   grid-template-rows: 361px 179px 30px;
   grid-gap:10px;
+}
+.main__opacity{
+  position: absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  opacity: 0.2;
+  background-color: white;
+  // background: radial-gradient(circle, #4A2E4D 0%, #3F2742 14.57%, #000000 100%); 
 }
