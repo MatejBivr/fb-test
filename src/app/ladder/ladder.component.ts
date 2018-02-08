@@ -10,7 +10,7 @@ export class LadderComponent implements OnInit {
   subheading:string = 'How ladder works?';
   infoUrl:string = '#';
   linkUrl:string = '#';
-  bgc:string = 'linear-gradient(180deg, rgba(162,122,180,0.4) 0%, rgba(62,85,144,0.2) 100%)';
+  bgc:string = 'linear-gradient(180deg, #73567B 0%, #272B37 100%)';
   progressColor:string = '#72BB1C';
   players:Array<Object> = [
     {
